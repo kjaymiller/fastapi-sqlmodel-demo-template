@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi_api"
+version = "0.0.1"
+requires-python = ">=3.8"
+description = "A template for FastAPI + SQLModel projects. This is for template purposes only."
+dependencies = [
+    "fastapi[all]",
+    "sqlmodel",
+]
