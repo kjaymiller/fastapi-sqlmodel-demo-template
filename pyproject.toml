@@ -11,3 +11,8 @@ dependencies = [
     "fastapi[all]",
     "sqlmodel",
 ]
+
+[tools.pytest.ini_options]
+env = [
+    "DB_URI=sqlite:///test.db"
+    ]
