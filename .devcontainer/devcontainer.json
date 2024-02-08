@@ -1,0 +1,5 @@
+{
+    "name": "Python 3",
+    "image": "python:3",
+    "postCreateCommand": "python -m pip install -e ."
+}
